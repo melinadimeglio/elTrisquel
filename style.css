@@ -9,12 +9,12 @@
     --negro: rgb(0 0 0);
 }
 
-body{
+header{
     background-color: var(--negro);
 }
 
 .logo{
-    width: 10%;  
+    width: 100px;  
 }
 
 h1{
@@ -24,8 +24,15 @@ h1{
 
 .nav-link {
     color: var(--golden);
+    margin-right: 120px;
+    margin-top: 90px;
 }
 
-a:hover .nav-link{
+header{
+    display: flex;
+}
+
+.nav-link:hover{
     text-decoration: underline;
+    color: var(--golden);
 }
