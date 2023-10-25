@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --golden: rgb(209 186 132);
+    --negro: rgb(0 0 0);
+}
+
+body{
+    background-color: var(--negro);
+}
+
+.logo{
+    width: 10%;  
+}
+
+h1{
+    color: var(--golden);
+    font-size: 20px;
+}
+
+.nav-link {
+    color: var(--golden);
+}
+
+a:hover .nav-link{
+    text-decoration: underline;
+}
